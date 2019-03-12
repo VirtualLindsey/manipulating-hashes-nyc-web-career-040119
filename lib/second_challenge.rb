@@ -8,7 +8,7 @@ def second_challenge
 
   result = []
   
-  groceries.keys do |key|
+  groceries.values do |key|
     value = groceries[key].values
     value.each do |i|
       result << name
