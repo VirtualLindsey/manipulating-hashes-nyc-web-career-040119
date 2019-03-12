@@ -10,7 +10,6 @@ def second_challenge
   
   groceries.values.each do |names|
       result << names
-
   end
 
   return result
